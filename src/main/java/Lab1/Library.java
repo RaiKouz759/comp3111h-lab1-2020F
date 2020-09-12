@@ -6,7 +6,9 @@ package Lab1;
 public class Library {
 	
 	public static void main(String arg[]) {
-		System.out.println("When there is a fire, put it out.");
+		Library lib = new Library();
+		if (lib.someLibraryMethod())
+			System.out.println("commit and push when there is a fire.");
 	}
 	
     public boolean someLibraryMethod() {
